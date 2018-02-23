@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Computer Repair
+    link(href='stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='jumbotron.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Computer Repair
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='/') Home
+          li.nav-item
+            a.nav-link(href='/about') About
+          li.nav-item
+            a.nav-link(href='/contact') Contact
+    main(role='main')
+        block content
+        hr
+    footer.container
+      p(class="text-center") © Company 2017-2018
